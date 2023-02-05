@@ -37,8 +37,6 @@ extension MonthlyPerformance {
     
     override func configureAppearance() {
         super.configureAppearance()
-        
-        
-        
+ 
     }
 }
