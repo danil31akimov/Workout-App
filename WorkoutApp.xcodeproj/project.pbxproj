@@ -7,23 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D806943A298BCBAE00E0BB7D /* MonthlyPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8069439298BCBAE00E0BB7D /* MonthlyPerformance.swift */; };
+		D806943D298BD1A500E0BB7D /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D806943C298BD1A500E0BB7D /* WAChartsView.swift */; };
+		D8069440298BD87B00E0BB7D /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D806943F298BD87B00E0BB7D /* YAxisView.swift */; };
+		D8069442298BDC2A00E0BB7D /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8069441298BDC2A00E0BB7D /* XAxisView.swift */; };
+		D8069444298C031C00E0BB7D /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8069443298C031B00E0BB7D /* ChartView.swift */; };
 		D80D9D822979BF6200B1D572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D812979BF6200B1D572 /* AppDelegate.swift */; };
 		D80D9D842979BF6200B1D572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D832979BF6200B1D572 /* SceneDelegate.swift */; };
-		D80D9D862979BF6200B1D572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D852979BF6200B1D572 /* ViewController.swift */; };
-		D80D9D892979BF6200B1D572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D9D872979BF6200B1D572 /* Main.storyboard */; };
+		D80D9D862979BF6200B1D572 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D852979BF6200B1D572 /* OverviewController.swift */; };
 		D80D9D8B2979BF6300B1D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80D9D8A2979BF6300B1D572 /* Assets.xcassets */; };
 		D80D9D8E2979BF6300B1D572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D9D8C2979BF6300B1D572 /* LaunchScreen.storyboard */; };
+		D80D9D982979C4CD00B1D572 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D972979C4CD00B1D572 /* TabBarController.swift */; };
+		D80D9D9D2979C59500B1D572 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D9C2979C59500B1D572 /* UIColor + ext.swift */; };
+		D80D9DA02979D48900B1D572 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9D9F2979D48900B1D572 /* R.swift */; };
+		D80D9DA2297FDEE000B1D572 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DA1297FDEE000B1D572 /* NavBarController.swift */; };
+		D80D9DA5297FE29600B1D572 /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DA4297FE29600B1D572 /* WABaseController.swift */; };
+		D80D9DA72980029900B1D572 /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DA62980029900B1D572 /* UIView + Ext.swift */; };
+		D80D9DAE29806D4A00B1D572 /* SessionController .swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DAD29806D4A00B1D572 /* SessionController .swift */; };
+		D80D9DB029806D6800B1D572 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DAF29806D6800B1D572 /* ProgressController.swift */; };
+		D80D9DB229806D8500B1D572 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DB129806D8500B1D572 /* SettingsController.swift */; };
+		D80D9DB52983C79600B1D572 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DB42983C79600B1D572 /* WAButton.swift */; };
+		D80D9DB729859F8700B1D572 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DB629859F8700B1D572 /* OverviewNavBar.swift */; };
+		D80D9DB929859FC000B1D572 /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DB829859FC000B1D572 /* WABaseView.swift */; };
+		D80D9DBC2986FB8E00B1D572 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DBB2986FB8E00B1D572 /* WeekView.swift */; };
+		D80D9DBE2986FD9200B1D572 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DBD2986FD9200B1D572 /* WeekdayView.swift */; };
+		D80D9DC0298704A000B1D572 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DBF298704A000B1D572 /* Date + ext.swift */; };
+		D80D9DC32987AED400B1D572 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D9DC22987AED400B1D572 /* WABaseInfoView.swift */; };
+		D87E04BF2989A20D00DE7597 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04BE2989A20D00DE7597 /* PercentView.swift */; };
+		D87E04C4298A7B4700DE7597 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04C3298A7B4700DE7597 /* StatsView.swift */; };
+		D87E04C7298A7B8B00DE7597 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04C6298A7B8B00DE7597 /* StatsItemView.swift */; };
+		D87E04C9298AE0F400DE7597 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04C8298AE0F400DE7597 /* StepsView.swift */; };
+		D87E04CC298AE45F00DE7597 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04CB298AE45F00DE7597 /* WABarsView.swift */; };
+		D87E04CF298AE62B00DE7597 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04CE298AE62B00DE7597 /* WABarView.swift */; };
+		D87E04D3298AF60D00DE7597 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E04D2298AF60C00DE7597 /* DailyPerformanceView.swift */; };
+		D8C7A1742988376A0066FB05 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7A1732988376A0066FB05 /* TimerView.swift */; };
+		D8C7A177298838920066FB05 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7A176298838920066FB05 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8069439298BCBAE00E0BB7D /* MonthlyPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformance.swift; sourceTree = "<group>"; };
+		D806943C298BD1A500E0BB7D /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
+		D806943F298BD87B00E0BB7D /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
+		D8069441298BDC2A00E0BB7D /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
+		D8069443298C031B00E0BB7D /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		D80D9D7E2979BF6200B1D572 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80D9D812979BF6200B1D572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D80D9D832979BF6200B1D572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D80D9D852979BF6200B1D572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D80D9D882979BF6200B1D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80D9D852979BF6200B1D572 /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 		D80D9D8A2979BF6300B1D572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80D9D8D2979BF6300B1D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D80D9D8F2979BF6300B1D572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80D9D972979C4CD00B1D572 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D80D9D9C2979C59500B1D572 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		D80D9D9F2979D48900B1D572 /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
+		D80D9DA1297FDEE000B1D572 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		D80D9DA4297FE29600B1D572 /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
+		D80D9DA62980029900B1D572 /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
+		D80D9DAD29806D4A00B1D572 /* SessionController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionController .swift"; sourceTree = "<group>"; };
+		D80D9DAF29806D6800B1D572 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		D80D9DB129806D8500B1D572 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		D80D9DB42983C79600B1D572 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
+		D80D9DB629859F8700B1D572 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		D80D9DB829859FC000B1D572 /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
+		D80D9DBB2986FB8E00B1D572 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		D80D9DBD2986FD9200B1D572 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		D80D9DBF298704A000B1D572 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		D80D9DC22987AED400B1D572 /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
+		D87E04BE2989A20D00DE7597 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
+		D87E04C3298A7B4700DE7597 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		D87E04C6298A7B8B00DE7597 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
+		D87E04C8298AE0F400DE7597 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		D87E04CB298AE45F00DE7597 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
+		D87E04CE298AE62B00DE7597 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		D87E04D2298AF60C00DE7597 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
+		D8C7A1732988376A0066FB05 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D8C7A176298838920066FB05 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8069438298BCB6C00E0BB7D /* MonthlyPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				D8069439298BCBAE00E0BB7D /* MonthlyPerformance.swift */,
+			);
+			path = MonthlyPerformance;
+			sourceTree = "<group>";
+		};
+		D806943B298BD19300E0BB7D /* WAChatsView */ = {
+			isa = PBXGroup;
+			children = (
+				D806943E298BD1DE00E0BB7D /* Views */,
+				D806943C298BD1A500E0BB7D /* WAChartsView.swift */,
+			);
+			path = WAChatsView;
+			sourceTree = "<group>";
+		};
+		D806943E298BD1DE00E0BB7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D806943F298BD87B00E0BB7D /* YAxisView.swift */,
+				D8069441298BDC2A00E0BB7D /* XAxisView.swift */,
+				D8069443298C031B00E0BB7D /* ChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D80D9D752979BF6200B1D572 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +141,217 @@
 		D80D9D802979BF6200B1D572 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
-				D80D9D812979BF6200B1D572 /* AppDelegate.swift */,
-				D80D9D832979BF6200B1D572 /* SceneDelegate.swift */,
-				D80D9D852979BF6200B1D572 /* ViewController.swift */,
-				D80D9D872979BF6200B1D572 /* Main.storyboard */,
-				D80D9D8A2979BF6300B1D572 /* Assets.xcassets */,
-				D80D9D8C2979BF6300B1D572 /* LaunchScreen.storyboard */,
-				D80D9D8F2979BF6300B1D572 /* Info.plist */,
+				D80D9D9A2979C56800B1D572 /* Helpers */,
+				D80D9D952979C03400B1D572 /* Application */,
+				D80D9DA3297FE25500B1D572 /* Controolers */,
+				D80D9D962979C07200B1D572 /* SupportingFiles */,
 			);
 			path = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		D80D9D952979C03400B1D572 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9D832979BF6200B1D572 /* SceneDelegate.swift */,
+				D80D9D812979BF6200B1D572 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D80D9D962979C07200B1D572 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9D8A2979BF6300B1D572 /* Assets.xcassets */,
+				D80D9D8F2979BF6300B1D572 /* Info.plist */,
+				D80D9D8C2979BF6300B1D572 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D80D9D9A2979C56800B1D572 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9D9E2979C5A700B1D572 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D80D9D9E2979C5A700B1D572 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9D9C2979C59500B1D572 /* UIColor + ext.swift */,
+				D80D9DA62980029900B1D572 /* UIView + Ext.swift */,
+				D80D9D9F2979D48900B1D572 /* R.swift */,
+				D80D9DBF298704A000B1D572 /* Date + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D80D9DA3297FE25500B1D572 /* Controolers */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9DAC29806D2300B1D572 /* Settings */,
+				D80D9DAB29806D1B00B1D572 /* Progress */,
+				D80D9DAA29806D1300B1D572 /* Session */,
+				D80D9DA929806D0400B1D572 /* Overview */,
+				D80D9DA82980053D00B1D572 /* Base */,
+			);
+			path = Controolers;
+			sourceTree = "<group>";
+		};
+		D80D9DA82980053D00B1D572 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9DC12987AEAC00B1D572 /* Views */,
+				D80D9D972979C4CD00B1D572 /* TabBarController.swift */,
+				D80D9DA1297FDEE000B1D572 /* NavBarController.swift */,
+				D80D9DA4297FE29600B1D572 /* WABaseController.swift */,
+				D80D9DB829859FC000B1D572 /* WABaseView.swift */,
+				D80D9DB42983C79600B1D572 /* WAButton.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D80D9DA929806D0400B1D572 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9DB32983C74500B1D572 /* Views */,
+				D80D9D852979BF6200B1D572 /* OverviewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		D80D9DAA29806D1300B1D572 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7A172298837400066FB05 /* Views */,
+				D80D9DAD29806D4A00B1D572 /* SessionController .swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		D80D9DAB29806D1B00B1D572 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04D0298AF5AA00DE7597 /* Views */,
+				D80D9DAF29806D6800B1D572 /* ProgressController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		D80D9DAC29806D2300B1D572 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9DB129806D8500B1D572 /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D80D9DB32983C74500B1D572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9DBA2986FB6400B1D572 /* WeekView */,
+				D80D9DB629859F8700B1D572 /* OverviewNavBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D80D9DBA2986FB6400B1D572 /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				D80D9DBB2986FB8E00B1D572 /* WeekView.swift */,
+				D80D9DBD2986FD9200B1D572 /* WeekdayView.swift */,
+			);
+			path = WeekView;
+			sourceTree = "<group>";
+		};
+		D80D9DC12987AEAC00B1D572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D806943B298BD19300E0BB7D /* WAChatsView */,
+				D87E04CA298AE3ED00DE7597 /* WABarsView */,
+				D80D9DC22987AED400B1D572 /* WABaseInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D87E04C0298A76C900DE7597 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04C5298A7B7200DE7597 /* Views */,
+				D87E04C3298A7B4700DE7597 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		D87E04C1298A76D000DE7597 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04C8298AE0F400DE7597 /* StepsView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		D87E04C5298A7B7200DE7597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04C6298A7B8B00DE7597 /* StatsItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D87E04CA298AE3ED00DE7597 /* WABarsView */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04CD298AE61700DE7597 /* Views */,
+				D87E04CB298AE45F00DE7597 /* WABarsView.swift */,
+			);
+			path = WABarsView;
+			sourceTree = "<group>";
+		};
+		D87E04CD298AE61700DE7597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04CE298AE62B00DE7597 /* WABarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D87E04D0298AF5AA00DE7597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8069438298BCB6C00E0BB7D /* MonthlyPerformance */,
+				D87E04D1298AF5C200DE7597 /* DailyPerformance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D87E04D1298AF5C200DE7597 /* DailyPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				D87E04D2298AF60C00DE7597 /* DailyPerformanceView.swift */,
+			);
+			path = DailyPerformance;
+			sourceTree = "<group>";
+		};
+		D8C7A172298837400066FB05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7A1752988387C0066FB05 /* Timer */,
+				D87E04C1298A76D000DE7597 /* Steps */,
+				D87E04C0298A76C900DE7597 /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8C7A1752988387C0066FB05 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7A1732988376A0066FB05 /* TimerView.swift */,
+				D8C7A176298838920066FB05 /* ProgressView.swift */,
+				D87E04BE2989A20D00DE7597 /* PercentView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +414,6 @@
 			files = (
 				D80D9D8E2979BF6300B1D572 /* LaunchScreen.storyboard in Resources */,
 				D80D9D8B2979BF6300B1D572 /* Assets.xcassets in Resources */,
-				D80D9D892979BF6200B1D572 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +424,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80D9D862979BF6200B1D572 /* ViewController.swift in Sources */,
+				D80D9DBC2986FB8E00B1D572 /* WeekView.swift in Sources */,
+				D80D9DC0298704A000B1D572 /* Date + ext.swift in Sources */,
+				D80D9DB229806D8500B1D572 /* SettingsController.swift in Sources */,
+				D80D9D862979BF6200B1D572 /* OverviewController.swift in Sources */,
+				D80D9DB729859F8700B1D572 /* OverviewNavBar.swift in Sources */,
+				D80D9D982979C4CD00B1D572 /* TabBarController.swift in Sources */,
+				D80D9DA72980029900B1D572 /* UIView + Ext.swift in Sources */,
+				D87E04CF298AE62B00DE7597 /* WABarView.swift in Sources */,
 				D80D9D822979BF6200B1D572 /* AppDelegate.swift in Sources */,
+				D80D9DA2297FDEE000B1D572 /* NavBarController.swift in Sources */,
+				D87E04D3298AF60D00DE7597 /* DailyPerformanceView.swift in Sources */,
+				D806943D298BD1A500E0BB7D /* WAChartsView.swift in Sources */,
+				D80D9DC32987AED400B1D572 /* WABaseInfoView.swift in Sources */,
+				D8C7A1742988376A0066FB05 /* TimerView.swift in Sources */,
+				D8C7A177298838920066FB05 /* ProgressView.swift in Sources */,
+				D80D9DB52983C79600B1D572 /* WAButton.swift in Sources */,
+				D87E04C9298AE0F400DE7597 /* StepsView.swift in Sources */,
+				D80D9DB029806D6800B1D572 /* ProgressController.swift in Sources */,
+				D8069442298BDC2A00E0BB7D /* XAxisView.swift in Sources */,
+				D8069440298BD87B00E0BB7D /* YAxisView.swift in Sources */,
+				D80D9DA02979D48900B1D572 /* R.swift in Sources */,
+				D87E04C7298A7B8B00DE7597 /* StatsItemView.swift in Sources */,
+				D806943A298BCBAE00E0BB7D /* MonthlyPerformance.swift in Sources */,
+				D80D9D9D2979C59500B1D572 /* UIColor + ext.swift in Sources */,
+				D87E04BF2989A20D00DE7597 /* PercentView.swift in Sources */,
+				D80D9DAE29806D4A00B1D572 /* SessionController .swift in Sources */,
+				D80D9DB929859FC000B1D572 /* WABaseView.swift in Sources */,
+				D80D9DBE2986FD9200B1D572 /* WeekdayView.swift in Sources */,
+				D87E04CC298AE45F00DE7597 /* WABarsView.swift in Sources */,
+				D8069444298C031C00E0BB7D /* ChartView.swift in Sources */,
+				D87E04C4298A7B4700DE7597 /* StatsView.swift in Sources */,
+				D80D9DA5297FE29600B1D572 /* WABaseController.swift in Sources */,
 				D80D9D842979BF6200B1D572 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +463,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D80D9D872979BF6200B1D572 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D80D9D882979BF6200B1D572 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D80D9D8C2979BF6300B1D572 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,12 +596,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +622,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
